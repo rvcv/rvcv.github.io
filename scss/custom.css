@@ -1,0 +1,14 @@
+.navbar {
+  padding: 3vw 10vw 0vw 10vw;
+}
+
+.navbar .navbar-brand {
+  padding-right: 12vw;
+}
+
+.navbar .nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=custom.css.map */
