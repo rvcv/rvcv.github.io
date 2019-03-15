@@ -8,7 +8,7 @@
         margin-right: 35vw;
     }
 
-    .nav-item {
+    .nav-link {
         padding-left:10px;
         padding-right: 10px;
         text-transform: uppercase;
@@ -16,6 +16,10 @@
 
     &.scrolled {
         background: blue;
+    }
+
+    > * {
+        transition: 0;
     }
 }
 

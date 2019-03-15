@@ -10,7 +10,7 @@
   margin-right: 35vw;
 }
 
-.navbar .nav-item {
+.navbar .nav-link {
   padding-left: 10px;
   padding-right: 10px;
   text-transform: uppercase;
@@ -18,5 +18,10 @@
 
 .navbar.scrolled {
   background: blue;
+}
+
+.navbar > * {
+  -webkit-transition: 0;
+  transition: 0;
 }
 /*# sourceMappingURL=custom.css.map */
