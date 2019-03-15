@@ -1,8 +1,11 @@
 .navbar {
-    padding: 3vw 10vw 2vw 10vw;
+    padding: 2vw 1vw 2vw 1rem;
+    background: transparent;
+    transition: 500ms ease;
 
     .navbar-brand {
-        margin-right: 12vw;
+        margin-left:10vw;
+        margin-right: 35vw;
     }
 
     .nav-item {
@@ -10,4 +13,9 @@
         padding-right: 10px;
         text-transform: uppercase;
     }
+
+    &.scrolled {
+        background: blue;
+    }
 }
+

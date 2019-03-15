@@ -1,14 +1,22 @@
 .navbar {
-  padding: 3vw 10vw 2vw 10vw;
+  padding: 2vw 1vw 2vw 1rem;
+  background: transparent;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 .navbar .navbar-brand {
-  margin-right: 12vw;
+  margin-left: 10vw;
+  margin-right: 35vw;
 }
 
 .navbar .nav-item {
   padding-left: 10px;
   padding-right: 10px;
   text-transform: uppercase;
+}
+
+.navbar.scrolled {
+  background: blue;
 }
 /*# sourceMappingURL=custom.css.map */
